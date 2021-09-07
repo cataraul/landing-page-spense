@@ -227,7 +227,7 @@ body{
         .card1{
             background-color:$background-gray;
             .image{
-                background-image:url("assets/Phone_mockup_remade.jpg");
+                background-image:url("assets/phone_mockup_half.jpg");
                 background-size: 100% 100%;
             }
         }
@@ -351,6 +351,15 @@ footer{
         }
     }
 }
+@media only screen and (max-width:1000px){
+    .section{
+        .section-container{
+            .card{
+                width:85vw;
+            }
+        }
+    }
+}
 @media only screen and (max-width:976px){
     .header{
        
@@ -379,6 +388,22 @@ footer{
             }
         }
     }
+    .footer{
+        align-items: flex-start;
+        padding-top:1rem;
+            .footer-container{
+                
+                align-items: center;
+                justify-content: flex-start;
+                flex-direction: column;
+                .lists{
+                    padding-top:2rem;
+                    li{
+                        font-size:1.4rem;
+                    }
+                }
+            }
+    }
 }
 @media only screen and (max-width:760px){
     header{
@@ -393,7 +418,7 @@ footer{
             grid-template-rows: repeat(2,1fr);
             
             .text{
-                width:100vw;
+                width:95vw;
                 height:45vh;
                 h1{
                     width:100%;
@@ -441,15 +466,7 @@ footer{
             }
         }
     }
-    footer{
-        .footer-container{
-            .lists{
-                li{
-                    font-size:1rem;
-                }
-            }
-        }
-    }
+    
 }
 @media only screen and (max-height:600px){
     .section{
@@ -537,14 +554,6 @@ footer{
             img{
                 width:8rem;
                 height:3.5rem;
-            }
-        }
-        .section-container{
-            .card1{
-                .image{
-                    background-size: 80% 100%;
-                    background-repeat:no-repeat;
-                }
             }
         }
     }
