@@ -584,9 +584,6 @@ footer .footer-container .lists li {
 }
 
 @media only screen and (max-width: 420px) {
-  .main-section .main-container .text {
-    text-align: center;
-  }
   .main-section .main-container .text .features p {
     font-size: 1.4rem;
   }
