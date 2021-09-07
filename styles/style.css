@@ -241,7 +241,7 @@ body {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  background-image: url("assets/Hero Image.png");
+  background-image: url("Assets/Hero Image.png");
   background-size: 100% 100%;
 }
 
@@ -320,12 +320,12 @@ body {
 }
 
 .section .section-container .card1 .image {
-  background-image: url("assets/phone_mockup_half.jpg");
+  background-image: url("Assets/phone_mockup_half.jpg");
   background-size: 100% 100%;
 }
 
 .section .section-container .card2 .image {
-  background-image: url("assets/Text Editor.png");
+  background-image: url("Assets/Text Editor.png");
   background-size: 100% 100%;
 }
 
@@ -493,7 +493,7 @@ footer .footer-container .lists li {
     width: 100%;
   }
   .main-section .main-container .image {
-    background: url("assets/Hero Image without Box.png");
+    background: url("Assets/Hero Image without Box.png");
     background-size: 100% 100%;
     width: 60%;
     height: 35vh;
